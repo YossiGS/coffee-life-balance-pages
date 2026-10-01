@@ -1,6 +1,6 @@
 # Coffee Life Balance public pages
 
-Support, Privacy Policy, and Terms of Use for Coffee Life Balance.
+Support, Privacy Policy, Terms of Use, and Accessibility for Coffee Life Balance.
 
 Site: https://yossigs.github.io/coffee-life-balance-pages/
 
