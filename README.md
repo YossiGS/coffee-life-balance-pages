@@ -2,7 +2,7 @@
 
 Support, Privacy Policy, Terms of Use, Cookie & Storage Policy, Refund & Cancellation Policy, and Accessibility for Coffee Life Balance.
 
-Site: https://yossigs.github.io/coffee-life-balance-pages/
+Site: https://coffelifebalance.space/
 
 Contact: mindpathbi@proton.me
 
