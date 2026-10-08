@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src https://bxdrahegynkcfuzcrezb.supabase.co; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <title>מימוש הטבות לבתי קפה — Coffee Life Balance</title>
+  <link rel="stylesheet" href="partner.css">
+  <script type="module" src="partner.js"></script>
+</head>
+<body>
+<main>
+  <a href="index.html">Coffee Life Balance</a>
+  <h1>מימוש הטבה בבית הקפה</h1>
+  <p>לעובדי בתי קפה שקיבלו הרשאה בלבד. מאשרים מימוש בעת מסירת ההטבה ללקוח.</p>
+  <button id="login" type="button">כניסה עם Google</button>
+  <button id="logout" type="button" hidden>יציאה</button>
+  <form id="redeem" hidden>
+    <label for="code">קוד המימוש של הלקוח</label>
+    <input id="code" name="code" type="text" dir="ltr" autocomplete="off" spellcheck="false" required maxlength="36">
+    <button type="submit">אישור מסירת ההטבה</button>
+  </form>
+  <p id="status" role="status" aria-live="polite"></p>
+  <p>הכניסה משתמשת באחסון זמני בלשונית לצורך אבטחת ההזדהות. פרטי הכניסה אינם נשמרים לאחר סגירת העמוד. אין כאן מעקב פרסומי.</p>
+  <nav aria-label="מידע ותמיכה"><a href="privacy.html?lang=he">פרטיות</a> · <a href="terms.html?lang=he">תנאים</a> · <a href="support.html?lang=he">תמיכה</a></nav>
+  <noscript><p>יש להפעיל JavaScript כדי להיכנס ולממש הטבה.</p></noscript>
+</main>
+</body>
+</html>
