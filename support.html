@@ -6,6 +6,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
 <meta name="description" content="Something not quite right? Let’s get it sorted. App support, venue corrections, and private account requests.">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Coffee Life Balance">
+<meta property="og:title" content="A little help. — Coffee Life Balance">
+<meta property="og:description" content="Something not quite right? Let’s get it sorted. App support, venue corrections, and private account requests.">
+<meta property="og:url" content="https://coffeelifebalance.com/support.html">
+<meta property="og:image" content="https://coffeelifebalance.com/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Coffee Life Balance: discover Israel’s best coffee">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="he_IL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://coffeelifebalance.com/img/og.jpg">
 <title>A little help. — Coffee Life Balance</title>
 <style>:root {
   color-scheme: light;
@@ -441,6 +456,14 @@ bdi { overflow-wrap: anywhere; }
 .step h3 { margin: 1rem 0 .3rem; font-size: 1.05rem; }
 .step p { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.55; }
 .steps-note { margin: 1.5rem 0 0; font-size: .9rem; max-width: none; }
+.venue-page { display: grid; grid-template-columns: .8fr 1.2fr; gap: 4rem; align-items: center; padding: 4rem 0 3rem; }
+.venue-photo { max-width: 22rem; transform: rotate(-2deg); }
+.venue-photo img { aspect-ratio: 4 / 5; object-fit: cover; }
+.venue-name { font-size: clamp(2.6rem, 5vw, 4.4rem); }
+.venue-page .hero-actions .quiet-link .icon, .venue-page .button .icon { width: 1.1rem; height: 1.1rem; }
+.venue-page .button { gap: .6rem; }
+.venue-notice { padding: .8rem 1rem; border-radius: .8rem; background: var(--accent-soft); color: var(--ink); font-weight: 600; }
+.venue-page .alpha-strip { margin-top: 2.5rem; }
 @media (max-width: 900px) {
   .header-inner { gap: 1rem; padding-inline: 1.5rem; }
   .site-nav a { padding-inline: .65rem; }
@@ -467,6 +490,8 @@ bdi { overflow-wrap: anywhere; }
   .nav-menu summary { width: 100%; }
   .nav-menu-list { inset-inline-end: 0; }
   .steps { grid-template-columns: 1fr; }
+  .venue-page { grid-template-columns: 1fr; gap: 2rem; padding-top: 2rem; }
+  .venue-photo { max-width: 15rem; margin: 0 auto; }
   .cafe-hero { padding-top: 2.5rem; }
   .cafe-teaser { align-items: start; padding: 1.25rem; margin-bottom: 3rem; }
   .page-wrap { padding: 0 1.25rem; }
