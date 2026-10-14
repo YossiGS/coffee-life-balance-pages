@@ -1,6 +1,6 @@
 # Coffee Life Balance public pages
 
-Support, Privacy Policy, Terms of Use, Cookie & Storage Policy, Refund & Cancellation Policy, and Accessibility for Coffee Life Balance.
+The app landing page, Support, Privacy Policy, Terms of Use, Cookie & Storage Policy, Refund & Cancellation Policy, and Accessibility for Coffee Life Balance.
 
 Site: https://coffeelifebalance.com/
 
