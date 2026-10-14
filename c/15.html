@@ -464,6 +464,22 @@ bdi { overflow-wrap: anywhere; }
 .venue-page .button { gap: .6rem; }
 .venue-notice { padding: .8rem 1rem; border-radius: .8rem; background: var(--accent-soft); color: var(--ink); font-weight: 600; }
 .venue-page .alpha-strip { margin-top: 2.5rem; }
+.grinder { display: grid; grid-template-columns: 1.2fr .8fr; gap: 3rem; align-items: center; padding: 3rem 0 4rem; }
+.grinder .eyebrow { display: flex; align-items: center; gap: .6rem; }
+.grinder-points { margin: 1.25rem 0 0; padding-inline-start: 1.2rem; color: var(--muted); font-size: .9rem; line-height: 1.6; }
+.grinder-points li + li { margin-top: .5rem; }
+.grinder-card {
+  padding: 1.5rem; border-radius: 1.5rem; background: var(--surface); border: 1px solid var(--line);
+  box-shadow: var(--shadow); transform: rotate(2deg);
+}
+.grinder-top { display: flex; align-items: center; gap: .5rem; color: var(--link); font-size: .68rem; font-weight: 750; letter-spacing: .12em; }
+.grinder-top .icon { width: 1.1rem; height: 1.1rem; }
+.grinder-top em { margin-inline-start: auto; font-style: normal; font-weight: 500; letter-spacing: 0; color: var(--muted); }
+.grinder-bean { font-family: ui-serif, Georgia, serif; font-size: 2rem; letter-spacing: -.03em; margin-top: 1rem; }
+.grinder-meta { color: var(--muted); font-size: .85rem; margin-top: .2rem; }
+.grinder-notes { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: 1rem; }
+.grinder-notes span { padding: .25rem .7rem; border-radius: 999px; background: var(--accent-soft); color: var(--ink); font-size: .78rem; font-weight: 600; }
+.grinder-foot { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .78rem; }
 @media (max-width: 900px) {
   .header-inner { gap: 1rem; padding-inline: 1.5rem; }
   .site-nav a { padding-inline: .65rem; }
@@ -490,6 +506,8 @@ bdi { overflow-wrap: anywhere; }
   .nav-menu summary { width: 100%; }
   .nav-menu-list { inset-inline-end: 0; }
   .steps { grid-template-columns: 1fr; }
+  .grinder { grid-template-columns: 1fr; gap: 2rem; padding-top: 1.5rem; }
+  .grinder-card { transform: none; }
   .venue-page { grid-template-columns: 1fr; gap: 2rem; padding-top: 2rem; }
   .venue-photo { max-width: 15rem; margin: 0 auto; }
   .cafe-hero { padding-top: 2.5rem; }
