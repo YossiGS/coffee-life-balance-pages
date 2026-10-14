@@ -2,7 +2,7 @@
 
 Support, Privacy Policy, Terms of Use, Cookie & Storage Policy, Refund & Cancellation Policy, and Accessibility for Coffee Life Balance.
 
-Site: https://coffelifebalance.space/
+Site: https://coffeelifebalance.com/
 
 Contact: mindpathbi@proton.me
 
